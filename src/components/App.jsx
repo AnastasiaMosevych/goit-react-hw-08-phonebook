@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 import { getProfileThunk } from "redux/Auth/Thunks";
 import { UseAuth } from "Hooks/useAuth";
 import { fetchContacts } from "redux/operations";
+import NotFound from "./NotFound/NotFound";
 
 
 const LoginPage = lazy(() => import('./pages/LoginPage/LoginPage'));
@@ -84,6 +85,7 @@ const App = () => {
               </Suspense>
               }
           ></Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </Container>

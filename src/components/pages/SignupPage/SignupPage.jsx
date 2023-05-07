@@ -55,14 +55,6 @@ export const SignupPage = () => {
                         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                         required
                     /> 
-                    {/* <Label>Password Confirmation</Label>
-                        <Input
-                        type="password"
-                        name="passwordConfirm"
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-                        required
-                    /> */}
                     <SubmitBtn type="submit">Sign Up</SubmitBtn>
                 </div>
             </FormStyle>

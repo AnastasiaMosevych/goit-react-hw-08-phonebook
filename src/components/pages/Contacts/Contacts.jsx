@@ -12,8 +12,6 @@ const Contacts = () => {
             <PhonebookForm />
             <Title title="Contacts" />
             <Filter />
-            {/* {isLoading && <p>Loading...</p>}
-            {error && <p>Error - {error}</p>} */}
             <ContactList/>
         </Container>
     )
